@@ -3,6 +3,26 @@
 </p>
 
 # RECURSOS PARA QUE FUNCIONE EL PROYECTO 
+
+## Ejecutar en desarrollo
+
+1. Clonar el repositorio
+2. Ejecutar
+
+```
+npm install
+```
+3. Tener NestCLI instalado
+```
+npm i -g @nestjs/cli
+```
+
+
+4. Levantar la base de datos
 ```
 docker-compose up -d
 ```
+
+## STACK USADO 
+* Mongo 
+* Nest
