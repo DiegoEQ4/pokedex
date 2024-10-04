@@ -23,10 +23,7 @@ export class PokemonService {
   ){
     this.defaultLimit = configService.get('defaultLimit');
   }
-
-
-
-
+  
   async create(createPokemonDto: CreatePokemonDto) {
 
     createPokemonDto.name = createPokemonDto.name.toLowerCase();
